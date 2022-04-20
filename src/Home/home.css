@@ -1,16 +1,9 @@
-.sli{
-    height: 250px !important;
-    width: 270px !important;
-}
-.text{
-    text-align: right !important;
-    
-}
-.slid{
+
+/* .slid{
     height: 263px !important;
     width: 300px !important;
 
-}
+} */
 /* .test{
    width:300% !important;
    height: 390px !important;
@@ -24,3 +17,6 @@
 /* .ll{
     padding-bottom: 80px !important;
 } */
+.change{
+    color: black !important;
+}
