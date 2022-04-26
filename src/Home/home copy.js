@@ -8,10 +8,29 @@ import './home.css'
 import {Animated} from "react-animated-css"
 import {NavDropdown} from "react-bootstrap"
 import Slider from "react-slick";
-import { BannerSlider } from './BannerSlider';
-import "./animate.css"
 
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
 
 const Home = () => {
     const settings = {
@@ -34,7 +53,8 @@ const Home = () => {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-       
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
       };
       // const [currentSlide,setCurrentSlide]=useState(0)
       useEffect(() => {
@@ -62,7 +82,7 @@ const Home = () => {
           <ul className="nav no-search">
             <li className="nav-item active"><a href="#">Home</a></li>
             <li className="nav-item"><a href="#">About us</a></li>
-            <li className="nav-item"><a href="/visitor">VISITOR</a></li>
+            <li className="nav-item"><a href="#">VISITOR</a></li>
             <li className="nav-item"><a href="#">STUDY</a></li>
             
             <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown ll" >
@@ -89,8 +109,10 @@ const Home = () => {
   </div>
 </header>
 
+<section className="banner__slider">
+  
 
-  <BannerSlider/>
+  <div className="slider stick-dots">
   {/* <Slider {...setting}>
     
     <div className="slide">
@@ -142,9 +164,73 @@ const Home = () => {
       </div>
     </div>
     </Slider> */}
+    <Carousel>
+  
+  <Carousel.Item>
+  
+  <img src="./images/banner-new.jpg" alt="" data-lazy="./images/banner-new.jpg" className="full-image animated" data-animation-in="zoomInImage"/>
+    <Carousel.Caption>
+    <div className="slide__content slide__content__right">
+        <div className="slide__content--headings ">
+        <h1 className="w3-container w3-center w3-animate-right  animated top-title tess" data-delay-in="0.8">Immigration</h1>
+       <h2><Animated animationIn="fadeInUp" isVisible={true}className="animated text-uppercase temm">Consulting2 </Animated></h2>
+          <h3><Animated animationIn="fadeInUp" isVisible={true}className="animated text-uppercase temm">Business2</Animated></h3>
+          <p  className="w3-container w3-center w3-animate-right  animated text-uppercase temm ">Aenean imperdiet. Etiam ultricies nisi 
+            vel augue. Curabitur ullamcorper...</p>
+        </div>
+      </div>
 
+      
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="full-image animated"
+      src="./images/banner-new.jpg"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+    <div className="slide__content slide__content__right">
+        <div className="slide__content--headings ">
+        <h1 className="w3-container w3-center w3-animate-right  animated top-title tess" data-delay-in="0.8">Immigration</h1>
+       <h2><Animated animationIn="fadeInUp" isVisible={true}className="animated text-uppercase temm">Consulting2 </Animated></h2>
+          <h3><Animated animationIn="fadeInUp" isVisible={true}className="animated text-uppercase temm">Business2</Animated></h3>
+          <p  className="w3-container w3-center w3-animate-right  animated text-uppercase temm ">Aenean imperdiet. Etiam ultricies nisi 
+            vel augue. Curabitur ullamcorper...</p>
+        </div>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="full-image animated"
+      src="./images/banner-new.jpg"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3><Animated animationIn="w3-container w3-center w3-animate-bottom tess" isVisible={true}className="animated text-uppercase tess">Business1</Animated></h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+    
+  </Carousel.Item>
+  
+</Carousel>
          
+  </div>
+  <div className="social-media-links">
+    <ul>
+      <li><a href="#"><i className="fa-brands fa-facebook-f change"></i></a></li>
+      <li><a href="#"><i className="fa-brands fa-instagram change"></i></a></li>
+      <li><a href="#"><i className="fa-brands fa-linkedin-in change"></i></a></li>
+      <li><a href="#"><i className="fa-brands fa-youtube change"></i></a></li>
+     
+    </ul>
 
+  </div>
+   
+</section>
 
 
 
@@ -157,11 +243,10 @@ const Home = () => {
     </section>
 
   <section className="immagration">
- 
     <div className="container">
-    
-      <div className="imma-hero">
-      <div>
+      <div className="immagration-slider">
+      <Slider {...settings}>
+        <div>
           <div  className="slide-img">
           <img src="./images/ima-slide.jpg"/>
           <p>Online immigration assessment</p>
@@ -191,7 +276,7 @@ const Home = () => {
           <p>Lorem ipsum dolor sit amet</p>
           </div>
         </div>
-        
+        </Slider>
       </div>
     </div>
   </section>
@@ -371,8 +456,8 @@ const Home = () => {
     <h3 className="text-center text-uppercase">how can <span>i help you</span></h3>
     <p className="text-center">Lorem ipsum dolor sit amet, consectetuer </p>
     
-    <div className="row help-hero">
-    
+    <div className="row help-slider">
+    <Slider {...settingss}>
         <div  className="slide-img text-center">
         <img  className="sli  text-center" src= {"images/help1.jpg"}/>
           <p className="text-uppercase">I WANT A WORK PERMIT</p>
@@ -389,7 +474,7 @@ const Home = () => {
         <img  className="sli text-center" src= {"images/help2.jpg"}/>
           <p className="text-uppercase">I WANT to study</p>
           </div>
-     
+      </Slider>
     </div>
   
   </div>
@@ -590,7 +675,7 @@ const Home = () => {
   </div>
 </footer>
 
-<script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+
 
 
 

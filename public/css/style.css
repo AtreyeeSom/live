@@ -78,6 +78,9 @@ a:hover {
 ul li {
 	list-style: none
 }
+.container{
+  width: 1120px !important;
+}
 
 /******* nav *************/
 header {
@@ -122,7 +125,7 @@ header {
 .navbar img {
   width: auto;
   justify-self: start;
-  margin-left: 20px;
+ 
 }
 
 .navbar ul {
@@ -137,7 +140,7 @@ header {
   color: #fff;
   font-size: 13px;
   font-weight: 400;
-  padding: 3px 15px;
+  padding: 3px 8px;
   text-decoration: none;
   transition: color 0.3s ease-out;
   text-transform: uppercase;
@@ -920,14 +923,14 @@ font-weight: bold;
 .immagration {
   background:#dededd;
 }
-.immagration-slider{
+.imma-hero{
   position: relative;
   top: -26px;
 }
-.immagration-slider .slick-slide {
+.imma-hero .slick-slide {
   padding: 0 15px;
 }
-.immagration-slider .slide-img::after {
+.imma-hero .slide-img::after {
     position: absolute;
     top: 26px;
     left: -31px;
@@ -940,43 +943,43 @@ font-weight: bold;
     z-index: -1;
     /* right: 38px; */
 }
-.immagration-slider .slick-slide img {
+.imma-hero .slick-slide img {
     width: 100%;
 }
-.immagration-slider .slick-list.draggable {
+.imma-hero .slick-list.draggable {
     margin: 0 -15px;
 }
-.immagration-slider .slide-img::after {
+.imma-hero .slide-img::after {
     display: none;
 }
-.immagration-slider .slick-slide.slick-active .slide-img:hover::after {
+.imma-hero .slick-slide.slick-active .slide-img:hover::after {
 display: block;
 }
-.immagration-slider .slide-img {
+.imma-hero .slide-img {
     position: relative;
 }
-.immagration-slider .slide-img p {
+.imma-hero .slide-img p {
     font-family: 'Montserrat';
     font-weight: 500;
     text-align: center;
     margin: 6px 0 0 0;
     color: #011f2e;
 }
-.immagration-slider .fa-chevron-right {
+.imma-hero .fa-chevron-right {
     position: absolute;
     right: -45px;
     top: 42%;
     font-size: 27px;
     color: #000;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
-.immagration-slider .fa-chevron-left {
+.imma-hero .fa-chevron-left {
     position: absolute;
     left: -45px;
     top: 42%;
     font-size: 27px;
     color: #000;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 /********** consultants **********/
 .consultants {
@@ -997,7 +1000,10 @@ display: block;
   padding: 10px 30px;
   border-radius: 30px;
   color: #fff;
-  text-transform: uppercase;}
+  text-transform: uppercase;
+  display: flex;
+  width: 30%;
+}
   .consultants p{
     font-size: 14px;
     color: #2b2b2b;
@@ -1133,27 +1139,27 @@ border: none;
 width: 150px;}
 .help-area{position: relative;
 padding: 50px 0;}
-.help-slider img{margin-bottom: 20px;
+.help-hero img{margin-bottom: 20px;
 width: 100%;}
-.help-area .help-slider p{font-family: 'Montserrat', sans-serif;
+.help-area .help-hero p{font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 color:#242423;}
-.help-slider .fa-chevron-left {
+.help-hero .fa-chevron-left {
   position: absolute;
-  left: -45px;
+  left: -605px;
   top: 42%;
   font-size: 27px;
-  color: #b1b0b0;
-  font-weight: 400;
+  /* color: #b1b0b0;
+  font-weight: 400; */
   cursor: pointer;
 }
-.help-slider .fa-chevron-right {
+.help-hero .fa-chevron-right {
   position: absolute;
-  right: -45px;
+  right: -610px;
   top: 42%;
   font-size: 27px;
-  color: #b1b0b0;
-  font-weight: 400;
+  /* color: #b1b0b0; */
+  /* font-weight: 400; */
   cursor: pointer;
 }
 .help-area p{font-size: 13px;
@@ -1169,7 +1175,7 @@ font-weight: 400;}
   background-image: url('../images/video-bg.jpg');
 background-size: cover;
 background-repeat: no-repeat;}
-.video-slider img{padding:0 20px;}
+.video-slider img{padding-right: 50px;}
 .video-slider .slick-dots li button {width:18px;
 height:18px;
 border-radius: 100%;
@@ -1177,10 +1183,10 @@ background: #f8f3e8;
 border: 2px solid #f8f3e8;}
 .video-slider .slick-dots .slick-active button{background: #090080;}
 .video-slider .fa{position: absolute;
-  font-size: 60px;
+  font-size: 80px;
   transform: translate(-50%, -50%);
   color: #fff;
-  top: 50%;}
+  top: 80%;}
   .membership{position: relative;
   padding: 50px 0;
 }
@@ -1439,6 +1445,7 @@ nav ul li ul li a {
 	top: -20px;
 	z-index: 1;
 	left: -20px;
+  
 }
 .bl-grey-bx {
 	height: 163px;
@@ -1451,6 +1458,7 @@ nav ul li ul li a {
 	top: auto;
 	right: 0;
 	left: auto;
+ 
 }
 .banner__slider.inr-bnr::after {
 	display: none;
@@ -1460,16 +1468,19 @@ nav ul li ul li a {
 	color: #090080;
 	font-size: 30px;
 	margin-bottom: 38px;
+  text-align: left !important;
 }
 .consultants.pnp-cnsult h3 {
 	color: #090080;
   font-size: 50px;
+  text-align: left !important;
 }
 .cnslt-otr h4 {
 	font-size: 25px;
 	font-weight: 500;
 	color: #2b2b2b;
 	font-family: 'Montserrat', sans-serif;margin-bottom: 20px;
+  text-align: left !important;
 }
 .cum-step {
 	padding-bottom: 80px;
@@ -1477,7 +1488,9 @@ nav ul li ul li a {
 .consultants.pnp-cnsult h5 {
 	font-family: LibreBodoni-Regular;
 	color: #090080;
-	font-size: 14px;text-transform: uppercase;
+	font-size: 14px;
+  text-transform: uppercase;
+  text-align: left !important;
 }
 .banner__slider.inr-bnr::before {
 	position: absolute;
@@ -1585,7 +1598,7 @@ padding-bottom: 150px;}
   color: #fff;
   text-transform: uppercase;
   display: flex;
-  width: 30%;
+  width: 35%;
 }
 .sponsor-content p{
   font-size: 14px;
@@ -1610,7 +1623,7 @@ padding-bottom: 150px;}
     position: absolute;
     top: -20px;
     z-index: 1;
-    right: -20px;}
+    right: -10px;}
     .bl-grey-bx-right {
       height: 163px;
       width: 226px;
@@ -1629,8 +1642,8 @@ padding-bottom: 150px;}
   }
   .sponsor-2 .sponsor-img{right:-190px;
     left: auto;}
-  .sponsor-3{padding-top: 150px;}
-  .sponsor-3 .sponsor-img{right:-190px;
+  .sponsor-3{padding-top: 110px;}
+  .sponsor-3 .sponsor-img{right:-100px;
     left: auto;}
   .bl-grey-bx-left{
     height: 163px;
@@ -1644,3 +1657,29 @@ padding-bottom: 150px;}
     left: auto;
   }
   .visitor-area{padding-top: 150px;} 
+  .banner__hero {
+    position: relative;
+  }
+  .banner__hero:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: #090080;
+    z-index: 1;
+}
+.banner__hero:before {
+    position: absolute;
+    content: "";
+    background: url("../images/banner-bottom-shape.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: auto;
+    right: 0;
+    bottom: -90px;
+    width: 100%;
+    height: 200px;
+    z-index: 9;
+}

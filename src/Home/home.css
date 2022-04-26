@@ -9,14 +9,43 @@
    height: 390px !important;
 } */
 .tess{
-    text-align: left!important;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #090080;
+    text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: left !important;
 }
 .temm{
+    font-family: LibreBodoni-Regular;
+    font-size: 49px;
+    color:#011f2e;
+    margin: 0;
     text-align: left !important;
+  
 }
 /* .ll{
     padding-bottom: 80px !important;
 } */
 .change{
     color: black !important;
+}
+.temi{
+    font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #191717;
+  font-size: 18px;
+   width: 107%;
+   padding-top: 15px;
+   text-align: left !important;
+}
+.temo{
+    font-family: LibreBodoni-Bold;
+  font-size: 67px;
+  color:#011f2e;
+  margin: 0;
+  line-height: 50px;
+  text-align: left !important;
+
 }

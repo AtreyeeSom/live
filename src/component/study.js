@@ -1,9 +1,10 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-const Sponser = () => {
+import "./pnb.css"
+const Study = () => {
   return (
     <div>
-    <header>
+         <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -25,9 +26,9 @@ const Sponser = () => {
                 <a className="dropdown-item" href="/Intra company transfer">Intra company transfer</a>
                 <a className="dropdown-item" href="/International Agreement">International Agreement</a>
                 <a className="dropdown-item" href="/Post graduation work permit">Post graduation work permit</a>
-                <a className="dropdown-item" href="/Federal Skilled worker className">Federal Skilled worker class</a>
+                <a className="dropdown-item" href="/Federal Skilled worker className">Federal Skilled worker className</a>
                 <a className="dropdown-item" href="/Federal Skilled Trades Cass">Federal Skilled Trades Cass</a>
-                <a className="dropdown-item" href="/Canadian Experience className">Canadian Experience class</a>
+                <a className="dropdown-item" href="/Canadian Experience className">Canadian Experience className</a>
                 <a className="dropdown-item" href="#">Home childcare giver/ Personal Support Worker</a>
               </div>
                
@@ -37,9 +38,9 @@ const Sponser = () => {
         <NavDropdown.Item href="#action/3.2" className="dropdown-item">Intra company transfer</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">International Agreement</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker class</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience class</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
@@ -56,85 +57,56 @@ const Sponser = () => {
   </div>
 </header>
 
-<section className="banner__slider">
+<section className="banner__slider inr-bnr">
   
     <div className="slidew">
       <div className="slide__img">
-        <img src="images/sponsor-bnr.jpg" className="img-fluid"/>
+        <img src="images/stdy-bnr.jpg" alt=""/>
       </div>
-  </div>
+     </div>
 </section>
 
 
-<section className="sponsor-area sponsor-3 bg-cream">
+<section className="consultants pnp-cnsult">
     <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-                <div className="sponsor-content">
-                    <h3 className="text-uppercase">family</h3>
-                    <h5>Lorem ipsum dolor sit ame</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                    <a href="#">Get in Touch</a>
-                </div>
-            </div>
-            <div className="col-md-6 p-0">
-                <div className="sponsor-img">
-                  <img  src="images/sponsor1.jpg" alt="" className="img-fluid"/>
-                  <div className="blu-bx"></div>
-                    <div className="bl-grey-bx-left"></div>
-                </div>
-          </div>
+      <div className="row">
+        <div className="col-md-6">
+          <h3 className="text-uppercase">study permit
+</h3>
+          <h5>
+You may apply to study</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+          <a href="#">Get in Touch</a>
         </div>
+        <div className="col-md-6 consultants-img p-0">
+          <img src="images/stdy-pic.jpg" alt="" className="img-fluid"/>
+            <div className="blu-bx">
+        </div>
+              <div className="bl-grey-bx">
+        </div>
+        </div>
+      </div>
+        
     </div>
-</section>
-
-<section className="sponsor-area bg-cream">
-    <div className="container">
-        <div className="row sponsor-row">
-            <div className="col-md-6 p-0">
-              <div className="sponsor-img">
-                <img  src="images/sponsor2.jpg" alt="" className="img-fluid"/>
-                <div className="blu-bx-right"></div>
-                  <div className="bl-grey-bx-right"></div>
-              </div>
+  </section>
+    <section className="cum-step">
+  <div className="container">
+ <div className="cnslt-otr">
+         <div className="row">
+             <div className="col-md-12">
+          <h2 className="text-uppercase">How long is my study permit?</h2>
+            <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+          <h4>1. For prerequisite courses</h4>
+                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+                 <h4>2. When you will complete your studies following your study permit ends</h4>
+                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+                 <h4>3. If you want to go back home while studying?</h4>
+                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
         </div>
-            <div className="col-md-6">
-                <div className="sponsor-content">
-                    <h3 className="text-uppercase">spouse and</h3>
-                    <h4 className="text-uppercase">children</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                    <a href="#">Get in Touch</a>
-                </div>
-            </div>
-           
         </div>
-    </div>
-</section>
-
-<section className="sponsor-area sponsor-2 bg-cream">
-    <div className="container">
-        <div className="row">
-          
-            <div className="col-md-6">
-                <div className="sponsor-content">
-                    <h3 className="text-uppercase">parent and</h3>
-                    <h4 className="text-uppercase">grandparent</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                    <a href="#">Get in Touch</a>
-                </div>
-            </div>
-            <div className="col-md-6 p-0">
-                <div className="sponsor-img">
-                  <img  src="images/sponsor3.jpg" alt="" className="img-fluid"/>
-                  <div className="blu-bx"></div>
-                    <div className="bl-grey-bx-left"></div>
-                </div>
-          </div>
         </div>
-    </div>
-</section>
-
-
+     </div>
+  </section>   
 
 <footer>
   <div className="ftr-1">
@@ -158,7 +130,7 @@ const Sponser = () => {
 
 
 
-{/* <script src="js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
  <script src="js/bootstrap.min.js"></script> 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -174,9 +146,9 @@ const Sponser = () => {
 </script>
 <script type="text/javascript">
 
-</script> */}
+</script>
     </div>
   )
 }
 
-export default Sponser
+export default Study

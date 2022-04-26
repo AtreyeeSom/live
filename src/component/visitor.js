@@ -1,9 +1,10 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-const Sponser = () => {
+import "./pnb.css"
+const Visitor = () => {
   return (
     <div>
-    <header>
+        <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -25,9 +26,9 @@ const Sponser = () => {
                 <a className="dropdown-item" href="/Intra company transfer">Intra company transfer</a>
                 <a className="dropdown-item" href="/International Agreement">International Agreement</a>
                 <a className="dropdown-item" href="/Post graduation work permit">Post graduation work permit</a>
-                <a className="dropdown-item" href="/Federal Skilled worker className">Federal Skilled worker class</a>
+                <a className="dropdown-item" href="/Federal Skilled worker className">Federal Skilled worker className</a>
                 <a className="dropdown-item" href="/Federal Skilled Trades Cass">Federal Skilled Trades Cass</a>
-                <a className="dropdown-item" href="/Canadian Experience className">Canadian Experience class</a>
+                <a className="dropdown-item" href="/Canadian Experience className">Canadian Experience className</a>
                 <a className="dropdown-item" href="#">Home childcare giver/ Personal Support Worker</a>
               </div>
                
@@ -37,9 +38,9 @@ const Sponser = () => {
         <NavDropdown.Item href="#action/3.2" className="dropdown-item">Intra company transfer</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">International Agreement</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker class</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience class</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
@@ -56,52 +57,57 @@ const Sponser = () => {
   </div>
 </header>
 
-<section className="banner__slider">
+<section className="banner__slider inr-bnr">
   
     <div className="slidew">
       <div className="slide__img">
-        <img src="images/sponsor-bnr.jpg" className="img-fluid"/>
+        <img src="images/visitor-bnr.png" className="img-fluid w-100"/>
       </div>
+ 
   </div>
+
 </section>
 
 
-<section className="sponsor-area sponsor-3 bg-cream">
+
+<section className="sponsor-area sponsor-3 " >
     <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          
+            <div className="col-md-6">
                 <div className="sponsor-content">
-                    <h3 className="text-uppercase">family</h3>
-                    <h5>Lorem ipsum dolor sit ame</h5>
+                    <h3 className="text-uppercase">vistor visa</h3>
+                    <h5>the most beautiful tourist attractions in the world</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
                     <a href="#">Get in Touch</a>
                 </div>
             </div>
             <div className="col-md-6 p-0">
                 <div className="sponsor-img">
-                  <img  src="images/sponsor1.jpg" alt="" className="img-fluid"/>
+                  <img  src="images/visitor1.jpg" alt="" className="img-fluid"/>
                   <div className="blu-bx"></div>
                     <div className="bl-grey-bx-left"></div>
                 </div>
           </div>
         </div>
     </div>
+
 </section>
 
-<section className="sponsor-area bg-cream">
+<section className="sponsor-area bg-cream visitor-area">
     <div className="container">
-        <div className="row sponsor-row">
+        <div className="row visitor-row">
             <div className="col-md-6 p-0">
               <div className="sponsor-img">
-                <img  src="images/sponsor2.jpg" alt="" className="img-fluid"/>
+                <img  src="images/visitor2.jpg" alt="" className="img-fluid"/>
                 <div className="blu-bx-right"></div>
                   <div className="bl-grey-bx-right"></div>
               </div>
         </div>
             <div className="col-md-6">
                 <div className="sponsor-content">
-                    <h3 className="text-uppercase">spouse and</h3>
-                    <h4 className="text-uppercase">children</h4>
+                    <h3 className="text-uppercase">super visa</h3>
+                    <h5>the most beautiful tourist attractions in the world</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
                     <a href="#">Get in Touch</a>
                 </div>
@@ -111,21 +117,21 @@ const Sponser = () => {
     </div>
 </section>
 
-<section className="sponsor-area sponsor-2 bg-cream">
+<section className="sponsor-area sponsor-2 visitor-area">
     <div className="container">
         <div className="row">
           
             <div className="col-md-6">
                 <div className="sponsor-content">
-                    <h3 className="text-uppercase">parent and</h3>
-                    <h4 className="text-uppercase">grandparent</h4>
+                    <h3 className="text-uppercase">business visa</h3>
+                    <h5>the most beautiful tourist attractions in the world</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
                     <a href="#">Get in Touch</a>
                 </div>
             </div>
             <div className="col-md-6 p-0">
                 <div className="sponsor-img">
-                  <img  src="images/sponsor3.jpg" alt="" className="img-fluid"/>
+                  <img  src="images/visitor3.jpg" alt="" className="img-fluid"/>
                   <div className="blu-bx"></div>
                     <div className="bl-grey-bx-left"></div>
                 </div>
@@ -134,7 +140,99 @@ const Sponser = () => {
     </div>
 </section>
 
-
+<section className="video-area">
+    <div className="container-fluid">
+  <div className="row video-hero text-center">
+    <div className="col-md-12 mx-auto">
+      <img src="images/video-bg2.jpg" className="img-fluid w-100"/>
+    <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+    <i className="fa fa-play-circle-o t" ></i>
+      </a>
+    </div>
+    <div className="col-md-12 mx-auto">
+      <img src="images/video.jpg" className="img-fluid w-100"/>
+      <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+      <i className="fa fa-play-circle-o t" ></i>
+        </a>
+    </div>
+    <div className="col-md-12 mx-auto">
+      <img src="images/video.jpg" className="img-fluid w-100"/>
+      <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+      <i className="fa fa-play-circle-o t" ></i>
+        </a>
+    </div>
+    <div className="col-md-12 mx-auto">
+      <img src="images/video.jpg" className="img-fluid w-100"/>
+      <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+      <i className="fa fa-play-circle-o t" ></i>
+        </a>
+    </div>
+  </div>
+    </div>
+  </section>
+  
+  <section className="membership">
+    <div className="container">
+      <h3 className="text-center text-uppercase">membership</h3>
+      <p className="text-center text-uppercase">Organizations & Affiliations</p>
+      <div className="row mt-5">
+        <div className="col-md-1"></div>
+        <div className="col-md-2">
+          <img src="images/member1.png" alt="member" className="img-fluid"/>
+        </div>
+        <div className="col-md-2">
+          <img src="images/member2.png" alt="member" className="img-fluid"/>
+        </div>
+        <div className="col-md-2">
+          <img src="images/member3.png" alt="member" className="img-fluid"/>
+        </div>
+        <div className="col-md-2">
+          <img src="images/member4.png" alt="member" className="img-fluid"/>
+        </div>
+        <div className="col-md-2">
+          <img src="images/member5.png" alt="member" className="img-fluid"/>
+        </div>
+        <div className="col-md-1"></div>
+        </div>
+      </div>
+    </section>
+  
+  <section className="blog-area">
+    <div className="container">
+      <h3 className="text-center text-uppercase">our <span>blog</span></h3>
+      <p className="text-center">Lorem ipsum dolor sit amet, consectetuer</p>
+      <div className="row mt-5 position-relative">
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog1.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog2.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog3.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog4.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+      </div>
+  
+      <div className="text-center mt-5">
+        <a href="#" className="btn see-all text-uppercase">See all</a>
+      </div>
+    </div>
+  </section>
 
 <footer>
   <div className="ftr-1">
@@ -158,7 +256,7 @@ const Sponser = () => {
 
 
 
-{/* <script src="js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
  <script src="js/bootstrap.min.js"></script> 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -167,6 +265,7 @@ const Sponser = () => {
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/webslidemenu.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
 <script src="js/custom.js"></script>
 <script>
@@ -174,9 +273,9 @@ const Sponser = () => {
 </script>
 <script type="text/javascript">
 
-</script> */}
+</script>
     </div>
   )
 }
 
-export default Sponser
+export default Visitor
