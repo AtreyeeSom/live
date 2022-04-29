@@ -17,7 +17,7 @@ const Study = () => {
           </div>
           <ul className="nav no-search">
             <li className="nav-item active"><a href="/">Home</a></li>
-            <li className="nav-item"><a href="#">About us</a></li>
+            <li className="nav-item"><a href="/about">About us</a></li>
             <li className="nav-item"><a href="/visitor">VISITOR</a></li>
             <li className="nav-item"><a href="/study">STUDY</a></li>
             {/* <li className="nav-item dropdown"><a href="#" className="dropdown-toggle" id="navbardrop" data-toggle="dropdown">EXPRESS ENTRY/Work</a>

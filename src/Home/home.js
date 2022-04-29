@@ -61,7 +61,7 @@ const Home = () => {
           </div>
           <ul className="nav no-search">
             <li className="nav-item active"><a href="#">Home</a></li>
-            <li className="nav-item"><a href="#">About us</a></li>
+            <li className="nav-item"><a href="/about">About us</a></li>
             <li className="nav-item"><a href="/visitor">VISITOR</a></li>
             <li className="nav-item"><a href="#">STUDY</a></li>
             
@@ -91,6 +91,68 @@ const Home = () => {
 
 
   <BannerSlider/>
+  {/* <section className="banner__slider">
+  <div className="slide">
+   
+   <div className="slide__img">
+  <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+    
+    <ol className="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+
+    <div className="carousel-inner" role="listbox">
+      <div className="item active">
+        <img src="./images/banner-new.jpg" alt="..."/>
+        <div className="carousel-caption">
+          <h2 className="animated bounceInRight tess">
+          Immigration</h2>
+          <h2 className="animated slideInUp temm">Consulting</h2>
+          <h3 className="animated slideInUp temo">Business</h3>
+          <p className='animated bounceInLeft temi'>Aenean imperdiet. Etiam ultricies nisi 
+            vel augue. Curabitur ullamcorper...</p>
+
+</div>
+</div>
+<div className="item">
+        <img src="./images/banner-new.jpg" alt="..."/>
+        <div className="carousel-caption">
+        <h2 className="animated slideInUp tess">
+          Immigration</h2>
+          <h2 className="animated slideInUp temm">Consulting</h2>
+          <h3 className="animated slideInUp temo">Business</h3>
+          <p className='animated slideInUp temi'>Aenean imperdiet. Etiam ultricies nisi 
+            vel augue. Curabitur ullamcorper...</p>
+</div>
+</div>
+<div className="item">
+        <img src="./images/banner-new.jpg" alt="..."/>
+        <div className="carousel-caption">
+        <h2 className="animated zoomIn tess">
+          Immigration</h2>
+          <h2 className="animated slideInUp temm">Consulting</h2>
+          <h3 className="animated slideInUp temo">Business</h3>
+          <p className='animated animated zoomIn temi'>Aenean imperdiet. Etiam ultricies nisi 
+            vel augue. Curabitur ullamcorper...</p>
+
+</div>
+</div>
+</div>
+
+    <a className="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span className="sr-only">Previous</span>
+    </a>
+    <a className="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span className="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+  </div>
+  </section> */}
   {/* <Slider {...setting}>
     
     <div className="slide">

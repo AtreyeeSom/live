@@ -16,14 +16,29 @@
   font-size: 23px;
   font-weight: bold;
   text-align: left !important;
+  /* padding-bottom: -5% !important; */
+  margin-left: 67% !important;
+  
+}
+.tessi{
+  font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #090080;
+    text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: right !important;
+  /* padding-bottom: -5% !important; */
+  margin-top: 10% !important;
 }
 .temm{
     font-family: LibreBodoni-Regular;
     font-size: 49px;
     color:#011f2e;
     margin: 0;
-    text-align: left !important;
-  
+    text-align: right !important;
+    /* padding-bottom: -5% !important; */
+    margin-left: 67% !important;
 }
 /* .ll{
     padding-bottom: 80px !important;
@@ -36,9 +51,22 @@
   font-family: 'Montserrat', sans-serif;
   color: #191717;
   font-size: 18px;
-   width: 107%;
+   width: 80% !important;
    padding-top: 15px;
    text-align: left !important;
+   /* padding-bottom: 12% !important; */
+    margin-left: 67% !important;
+}
+.temii{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #191717;
+  font-size: 18px;
+  line-height: 70px;
+   width: 70%;
+   /* padding-top: 15px; */
+   text-align: left !important;
+   /* padding-bottom: 27% !important; */
 }
 .temo{
     font-family: LibreBodoni-Bold;
@@ -47,5 +75,45 @@
   margin: 0;
   line-height: 50px;
   text-align: left !important;
+  /* padding-bottom: 25% !important; */
+  margin-left: 67% !important;
+  
 
 }
+body{
+    font-family: poppins;
+  }
+      .navbar-inverse {
+   background-color: transparent;
+   border-color: transparent;
+  }
+      .navbar-inverse .navbar-brand {
+   color: #fff;
+  }
+      .navbar-inverse .navbar-nav > li > a {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 900;
+  }
+  header .carousel-inner .item{
+    height: 100vh;
+    animation: delay 3s;
+  }
+  header .carousel-inner .item img{
+    width: 100%;
+  }
+  .carousel-caption{
+    padding-bottom: 250px;
+  }
+  .carousel-caption h2{
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  .carousel-control.right{
+    background-image: none;
+  }
+  .carousel-control.left{
+    background-image: none;
+  }
+  
+  
