@@ -36,6 +36,7 @@ const Home = () => {
         slidesToScroll: 1,
        
       };
+      // const [navbar,setNavbar]=useState(false)
       // const [currentSlide,setCurrentSlide]=useState(0)
       useEffect(() => {
        /// jquery
@@ -45,10 +46,19 @@ const Home = () => {
       //   setCurrentSlide(slide);
       //   console.log(slide);
       // }
+    // const ShowNav=()=>{
+    //   if(window.scrollY >=80){
+    //     setNavbar(true)
+    //   } else{
+    //     setNavbar(false)
+    //   }
+    // }
+    // window.addEventListener('scroll',ShowNav)
+   
     
   return (
     <div> 
-      <header>
+      <header className='sticky'>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -107,11 +117,11 @@ const Home = () => {
       <div className="item active">
         <img src="./images/banner-new.jpg" alt="..."/>
         <div className="carousel-caption">
-          <h2 className="animated bounceInRight tess">
+          <h2 className="animated bounceInRight tessi">
           Immigration</h2>
-          <h2 className="animated slideInUp temm">Consulting</h2>
-          <h3 className="animated slideInUp temo">Business</h3>
-          <p className='animated bounceInLeft temi'>Aenean imperdiet. Etiam ultricies nisi 
+          <h2 className="animated slideInUp temmi">Consulting</h2>
+          <h3 className="animated slideInUp temoi">Business</h3>
+          <p className='animated bounceInLeft temii'>Aenean imperdiet. Etiam ultricies nisi 
             vel augue. Curabitur ullamcorper...</p>
 
 </div>
@@ -119,22 +129,22 @@ const Home = () => {
 <div className="item">
         <img src="./images/banner-new.jpg" alt="..."/>
         <div className="carousel-caption">
-        <h2 className="animated slideInUp tess">
+        <h2 className="animated slideInUp tessi">
           Immigration</h2>
-          <h2 className="animated slideInUp temm">Consulting</h2>
-          <h3 className="animated slideInUp temo">Business</h3>
-          <p className='animated slideInUp temi'>Aenean imperdiet. Etiam ultricies nisi 
+          <h2 className="animated slideInUp temmi">Consulting</h2>
+          <h3 className="animated slideInUp temoi">Business</h3>
+          <p className='animated slideInUp temii'>Aenean imperdiet. Etiam ultricies nisi 
             vel augue. Curabitur ullamcorper...</p>
 </div>
 </div>
 <div className="item">
         <img src="./images/banner-new.jpg" alt="..."/>
         <div className="carousel-caption">
-        <h2 className="animated zoomIn tess">
+        <h2 className="animated zoomIn tessi">
           Immigration</h2>
-          <h2 className="animated slideInUp temm">Consulting</h2>
-          <h3 className="animated slideInUp temo">Business</h3>
-          <p className='animated animated zoomIn temi'>Aenean imperdiet. Etiam ultricies nisi 
+          <h2 className="animated slideInUp temmi">Consulting</h2>
+          <h3 className="animated slideInUp temoi">Business</h3>
+          <p className='animated animated zoomIn temii'>Aenean imperdiet. Etiam ultricies nisi 
             vel augue. Curabitur ullamcorper...</p>
 
 </div>
