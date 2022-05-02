@@ -61,27 +61,27 @@ const Home = () => {
           </div>
           <ul className="nav no-search">
             <li className="nav-item active"><a href="#">Home</a></li>
-            <li className="nav-item"><a href="#">About us</a></li>
+            <li className="nav-item"><a href="/about">About us</a></li>
             <li className="nav-item"><a href="/visitor">VISITOR</a></li>
-            <li className="nav-item"><a href="#">STUDY</a></li>
+            <li className="nav-item"><a href="/study">STUDY</a></li>
             
-            <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown ll" >
-        <NavDropdown.Item href="#action/3.1" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2" className="dropdown-item">Intra company transfer</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">International Agreement</NavDropdown.Item>
+            <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown" >
+        <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
+        <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
+        <NavDropdown.Item href="/international" className="dropdown-item">International Agreement</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
+        <NavDropdown.Item href="/trades" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
-            <li className="nav-item"><a href="#">BUSINESS </a></li>
+            <li className="nav-item"><a href="/business">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
             <li className="nav-item"><a href="#">ASSESSMENT</a></li>
-            <li className="nav-item"><a href="#">CITIZENSHIP</a></li>
-            <li className="nav-item"><a href="#">BLOG</a></li>
-            <li className="nav-item"><a href="#">Contact</a></li>
+            <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
+            <li className="nav-item"><a href="/blog">BLOG</a></li>
+            <li className="nav-item"><a href="/contact">Contact</a></li>
           </ul>
         </nav>
       </div>

@@ -1,10 +1,9 @@
 import React from 'react'
-import {NavDropdown} from "react-bootstrap"
-import "./pnb.css"
-const Study = () => {
+import { NavDropdown } from 'react-bootstrap'
+const Business = () => {
   return (
     <div>
-         <header>
+   <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -36,7 +35,7 @@ const Study = () => {
             <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown ll" >
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
-        <NavDropdown.Item href="international" className="dropdown-item">International Agreement</NavDropdown.Item>
+        <NavDropdown.Item href="/international" className="dropdown-item">International Agreement</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="/trades" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
@@ -44,10 +43,10 @@ const Study = () => {
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
-            <li className="nav-item"><a href="#">BUSINESS </a></li>
+            <li className="nav-item"><a href="/business">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
             <li className="nav-item"><a href="#">ASSESSMENT</a></li>
-            <li className="nav-item"><a href="/citzenship">CITIZENSHIP</a></li>
+            <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
             <li className="nav-item"><a href="/blog">BLOG</a></li>
             <li className="nav-item"><a href="/contact">Contact</a></li>
           </ul>
@@ -57,61 +56,74 @@ const Study = () => {
   </div>
 </header>
 
-<section className="banner__slider inr-bnr">
+<section class="inr-bnr visitor-bnr">
   
-    <div className="slidew">
-      <div className="slide__img">
-        <img src="images/stdy-bnr.jpg" alt=""/>
+    <div class="slidew">
+      <div class="slide__img">
+        <img src="images/visitor-bnr.png" class="img-fluid w-100"/>
       </div>
-     </div>
+ 
+  </div>
+
 </section>
 
 
-<section className="consultants pnp-cnsult">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <h3 className="text-uppercase">study permit
-</h3>
-          <h5>
-You may apply to study</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <a href="#">Get in Touch</a>
+
+<section class="sponsor-area sponsor-2 visitor-area abt-page">
+    <div class="container">
+        <div class="row">
+          
+            <div class="col-md-6">
+                <div class="sponsor-contenti">
+                    <h3 class="text-uppercase blue-txt">business </h3>
+                    <h5 class="text-uppercase">investor pnp</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+                    <a href="#">Get in Touch</a>
+                </div>
+            </div>
+            <div class="col-md-6 p-0">
+                <div class="sponsor-img">
+                  <img  src="images/business1.jpg" alt="" class="img-fluid"/>
+                  <div class="blu-bx"></div>
+                    <div class="bl-grey-bx-left"></div>
+                </div>
+          </div>
         </div>
-        <div className="col-md-6 consultants-img p-0">
-          <img src="images/stdy-pic.jpg" alt="" className="img-fluid"/>
-            <div className="blu-bx">
-        </div>
-              <div className="bl-grey-bx">
-        </div>
-        </div>
-      </div>
-        
     </div>
-  </section>
-    <section className="cum-step">
-  <div className="container">
- <div className="cnslt-otr">
-         <div className="row">
-             <div className="col-md-12">
-          <h2 className="text-uppercase">How long is my study permit?</h2>
-            <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <h4>1. For prerequisite courses</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h4>2. When you will complete your studies following your study permit ends</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h4>3. If you want to go back home while studying?</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+</section>
+
+<section class="sponsor-area bg-cream visitor-area abt-page" >
+    <div class="container">
+        <div class="row visitor-row">
+            <div class="col-md-6 p-0">
+              <div class="sponsor-img">
+                <img  src="images/business2.jpg" alt="" class="img-fluid"/>
+                <div class="blu-bx-right"></div>
+                  <div class="bl-grey-bx-right"></div>
+              </div>
         </div>
+            <div class="col-md-6">
+                <div class="sponsor-contenti">
+                    <h3 class="text-uppercase blue-txt">owner</h3>
+                    <h5 class="text-uppercase">operatorlmia</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+                    <a href="#">Get in Touch</a>
+                </div>
+            </div>
+           
         </div>
-        </div>
-     </div>
-  </section>   
+    </div>
+</section>
+
+
+
+ 
+ 
 
 <footer>
-  <div className="ftr-1">
-    <div className="container">
-      <h3 className="text-uppercase text-center">get in touch</h3>
+  <div class="ftr-1">
+    <div class="container">
+      <h3 class="text-uppercase text-center">get in touch</h3>
        
       <ul>
         <li><a href="#"><b>Phone:</b> (666) 555-2222</a></li>
@@ -120,8 +132,8 @@ You may apply to study</h5>
       </ul>
     </div>
   </div>
-  <div className="copy">
-    <div className="container">
+  <div class="copy">
+    <div class="container">
       <p>Copyright © 2022 domain.com</p>
     </div>
   </div>
@@ -139,6 +151,7 @@ You may apply to study</h5>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/webslidemenu.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
 <script src="js/custom.js"></script>
 <script>
@@ -151,4 +164,4 @@ You may apply to study</h5>
   )
 }
 
-export default Study
+export default Business

@@ -1,10 +1,9 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-import "./pnb.css"
-const Pnb = () => {
+const Blog = () => {
   return (
     <div>
-     <header>
+    <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -16,23 +15,11 @@ const Pnb = () => {
             <span className="bar"></span>
           </div>
           <ul className="nav no-search">
-            <li className="nav-item active"><a href="/">Home</a></li>
+            <li className="nav-item active"><a href="#">Home</a></li>
             <li className="nav-item"><a href="/about">About us</a></li>
             <li className="nav-item"><a href="/visitor">VISITOR</a></li>
             <li className="nav-item"><a href="/study">STUDY</a></li>
-            {/* <li className="nav-item dropdown"><a href="#" className="dropdown-toggle" id="navbardrop" data-toggle="dropdown">EXPRESS ENTRY/Work</a>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href="/LMIA based work permit">LMIA based work permit</a>
-                <a className="dropdown-item" href="/Intra company transfer">Intra company transfer</a>
-                <a className="dropdown-item" href="/International Agreement">International Agreement</a>
-                <a className="dropdown-item" href="/Post graduation work permit">Post graduation work permit</a>
-                <a className="dropdown-item" href="/Federal Skilled worker className">Federal Skilled worker className</a>
-                <a className="dropdown-item" href="/Federal Skilled Trades Cass">Federal Skilled Trades Cass</a>
-                <a className="dropdown-item" href="/Canadian Experience className">Canadian Experience className</a>
-                <a className="dropdown-item" href="#">Home childcare giver/ Personal Support Worker</a>
-              </div>
-               
-            </li> */}
+            
             <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown ll" >
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
@@ -56,53 +43,83 @@ const Pnb = () => {
     </div>
   </div>
 </header>
-<section className="banner__slider">
+
+<section className="banner__slider inr-bnr">
   
     <div className="slidew">
       <div className="slide__img">
-        <img src="images/pnp-bnr.jpg" alt=""/>
+        <img src="images/blog-bnr.png" alt=""/>
       </div>
-      </div>
+     
+  </div>
+
 </section>
-<section className="consultants pnp-cnsult">
+
+
+
+  
+  <section className="blog-area bg-white">
     <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <h3 className="text-uppercase">pnp</h3>
-          <h5>
-consectetuer adipiscing elit. Aenean</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <a href="#">Get in Touch</a>
+      <h3 className="text-center text-uppercase">our <span>blog</span></h3>
+      <p className="text-center">Lorem ipsum dolor sit amet, consectetuer</p>
+      <div className="row mt-5 position-relative">
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog1.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
         </div>
-        <div className="col-md-6 consultants-img p-0">
-          <img src="images/pnp-pic.jpg" alt="" className="img-fluid"/>
-            <div className="blu-bx">
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog2.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
         </div>
-              <div className="bl-grey-bx">
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog3.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
         </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog4.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
         </div>
       </div>
-        
+      <div className="row mt-5 position-relative">
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog5.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog6.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog7.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="blog-inr text-center">
+            <img src="images/blog8.png" alt="blog" className="img-fluid"/>
+            <p className="text-uppercase">adipiscing </p>
+          </div>
+        </div>
+      </div>
+  
+      <div className="text-center mt-5">
+        <a href="blog-details.html" className="btn see-all text-uppercase">See all</a>
+      </div>
     </div>
   </section>
-    <section className="cum-step">
-  <div className="container">
- <div className="cnslt-otr">
-         <div className="row">
-             <div className="col-md-12">
-          <h2 className="text-uppercase">Cum sociis natoque</h2>
-            <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <h4>Cum sociis natoque</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h4>Cum sociis natoque</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h4>Cum sociis natoque</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-        </div>
-        </div>
-        </div>
-     </div>
-  </section>   
 
 <footer>
   <div className="ftr-1">
@@ -135,6 +152,7 @@ consectetuer adipiscing elit. Aenean</h5>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/webslidemenu.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
 <script src="js/custom.js"></script>
 <script>
@@ -142,9 +160,8 @@ consectetuer adipiscing elit. Aenean</h5>
 </script>
 <script type="text/javascript">
 
-</script>
-    </div>
+</script></div>
   )
 }
 
-export default Pnb
+export default Blog

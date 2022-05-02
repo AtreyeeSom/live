@@ -1,10 +1,9 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-import "./pnb.css"
-const Study = () => {
+const Citizenship = () => {
   return (
     <div>
-         <header>
+          <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -36,7 +35,7 @@ const Study = () => {
             <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown ll" >
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
-        <NavDropdown.Item href="international" className="dropdown-item">International Agreement</NavDropdown.Item>
+        <NavDropdown.Item href="/international" className="dropdown-item">International Agreement</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="/trades" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
@@ -44,10 +43,10 @@ const Study = () => {
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
-            <li className="nav-item"><a href="#">BUSINESS </a></li>
+            <li className="nav-item"><a href="/business">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
             <li className="nav-item"><a href="#">ASSESSMENT</a></li>
-            <li className="nav-item"><a href="/citzenship">CITIZENSHIP</a></li>
+            <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
             <li className="nav-item"><a href="/blog">BLOG</a></li>
             <li className="nav-item"><a href="/contact">Contact</a></li>
           </ul>
@@ -61,52 +60,88 @@ const Study = () => {
   
     <div className="slidew">
       <div className="slide__img">
-        <img src="images/stdy-bnr.jpg" alt=""/>
+        <img src="images/citizen_bnr.jpg" className="img-fluid"/>
       </div>
-     </div>
+     
+
+  </div>
+
 </section>
 
 
-<section className="consultants pnp-cnsult">
+
+  <section className="consultants pnp-cnsult">
     <div className="container">
       <div className="row">
-        <div className="col-md-6">
-          <h3 className="text-uppercase">study permit
-</h3>
-          <h5>
-You may apply to study</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <a href="#">Get in Touch</a>
+        <div className="col-lg-6 col-md-12 city-con">
+          <h3 className="text-uppercase">citizenship</h3>
+          <h5>consectetuer adipiscing elit. Aenean</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+        <a href="#">Get in Touch</a>
+          
         </div>
-        <div className="col-md-6 consultants-img p-0">
-          <img src="images/stdy-pic.jpg" alt="" className="img-fluid"/>
-            <div className="blu-bx">
-        </div>
-              <div className="bl-grey-bx">
-        </div>
+        <div className="col-lg-6 col-md-12 consultants-img p-0 lmia-img">
+          <img  src="images/about2.jpg" alt="" className="img-fluid"/>
+            <div className="blu-bx"></div>
+        
         </div>
       </div>
         
     </div>
   </section>
-    <section className="cum-step">
-  <div className="container">
- <div className="cnslt-otr">
-         <div className="row">
-             <div className="col-md-12">
-          <h2 className="text-uppercase">How long is my study permit?</h2>
-            <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <h4>1. For prerequisite courses</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h4>2. When you will complete your studies following your study permit ends</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h4>3. If you want to go back home while studying?</h4>
-                 <p className='left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+
+  <section className="blog-content">
+    <div className="container">
+      
+      <h3>Do you know that Canada offers citizenship even to foreign nationals?</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/><br/>
+
+       incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+       <h3>Conditions to become a Canadian citizen</h3>
+      <ul>
+          <li><i className="fa fa-circle"></i>Be a permanent resident</li>
+          <li><i className="fa fa-circle"></i>Lived in Canada for three out of the last five years</li>
+          <li><i className="fa fa-circle"></i>Have filed your taxes</li>
+          <li><i className="fa fa-circle"></i>Pass a citizenship test</li>
+          <li><i className="fa fa-circle"></i>Prove your language skills</li>
+      </ul>
+      <h3>What Can Cause Revocation Citizenship?</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+    </div>
+</section>
+
+<section className="citizen-area">
+    <div className="container">
+     
+      <div className="row ">
+        <div className="col-md-4">
+          <div  className="slide-img text-center">
+            <img src="images/help1.jpg"/>
+            <p className="text-uppercase">Fill In The
+                Assessment Form</p>
+            </div>
         </div>
+        <div className="col-md-4">
+          <div  className="slide-img text-center">
+            <img src="images/help2.jpg"/>
+            <p className="text-uppercase">Schedule Your
+                Immigration Consultation</p>
+            </div>
         </div>
+        <div className="col-md-4">
+          <div  className="slide-img text-center">
+            <img src="images/help3.jpg"/>
+            <p className="text-uppercase">Get Ready To
+                Receive Your Approval</p>
+            </div>
         </div>
-     </div>
-  </section>   
+      
+      </div>
+      <div className="text-center mt-5">
+          <a href="#" className="submit-btn text-uppercase">get started today</a>
+      </div>
+    </div>
+  </section>
 
 <footer>
   <div className="ftr-1">
@@ -151,4 +186,4 @@ You may apply to study</h5>
   )
 }
 
-export default Study
+export default Citizenship

@@ -1,10 +1,9 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-import "./pnb.css"
-const Visitor = () => {
+const About = () => {
   return (
     <div>
-        <header>
+         <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -20,19 +19,7 @@ const Visitor = () => {
             <li className="nav-item"><a href="/about">About us</a></li>
             <li className="nav-item"><a href="/visitor">VISITOR</a></li>
             <li className="nav-item"><a href="/study">STUDY</a></li>
-            {/* <li className="nav-item dropdown"><a href="#" className="dropdown-toggle" id="navbardrop" data-toggle="dropdown">EXPRESS ENTRY/Work</a>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href="/LMIA based work permit">LMIA based work permit</a>
-                <a className="dropdown-item" href="/Intra company transfer">Intra company transfer</a>
-                <a className="dropdown-item" href="/International Agreement">International Agreement</a>
-                <a className="dropdown-item" href="/Post graduation work permit">Post graduation work permit</a>
-                <a className="dropdown-item" href="/Federal Skilled worker className">Federal Skilled worker className</a>
-                <a className="dropdown-item" href="/Federal Skilled Trades Cass">Federal Skilled Trades Cass</a>
-                <a className="dropdown-item" href="/Canadian Experience className">Canadian Experience className</a>
-                <a className="dropdown-item" href="#">Home childcare giver/ Personal Support Worker</a>
-              </div>
-               
-            </li> */}
+            
             <NavDropdown title="EXPRESS ENTRY/Work" id="collasible-nav-dropdown"className="nav-item dropdown ll" >
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
@@ -44,7 +31,7 @@ const Visitor = () => {
         <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
-            <li className="nav-item"><a href="/business">BUSINESS </a></li>
+            <li className="nav-item"><a href="#">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
             <li className="nav-item"><a href="#">ASSESSMENT</a></li>
             <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
@@ -61,77 +48,30 @@ const Visitor = () => {
   
     <div className="slidew">
       <div className="slide__img">
-        <img src="images/visitor-bnr.png" className="img-fluid w-100"/>
+        <img src="images/abt-bnr.jpg" alt=""/>
       </div>
- 
+     
   </div>
 
 </section>
 
 
 
-<section className="sponsor-area sponsor-3 " >
+  <section className="sponsor-area sponsor-2 visitor-area abt-page" >
     <div className="container">
         <div className="row">
           
             <div className="col-md-6">
                 <div className="sponsor-content">
-                    <h3 className="text-uppercase">vistor visa</h3>
-                    <h5>the most beautiful tourist attractions in the world</h5>
+                    <h3 className="text-uppercase">about</h3>
+                    <h5>GNI Immigration Services</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                    <a href="#">Get in Touch</a>
+                    <a href="#">learn More</a>
                 </div>
             </div>
             <div className="col-md-6 p-0">
                 <div className="sponsor-img">
-                  <img  src="images/visitor1.jpg" alt="" className="img-fluid"/>
-                  <div className="blu-bx"></div>
-                    <div className="bl-grey-bx-left"></div>
-                </div>
-          </div>
-        </div>
-    </div>
-
-</section>
-
-<section className="sponsor-area bg-cream visitor-area">
-    <div className="container">
-        <div className="row visitor-row">
-            <div className="col-md-6 p-0">
-              <div className="sponsor-img">
-                <img  src="images/visitor2.jpg" alt="" className="img-fluid"/>
-                <div className="blu-bx-right"></div>
-                  <div className="bl-grey-bx-right"></div>
-              </div>
-        </div>
-            <div className="col-md-6">
-                <div className="sponsor-content">
-                    <h3 className="text-uppercase">super visa</h3>
-                    <h5>the most beautiful tourist attractions in the world</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                    <a href="#">Get in Touch</a>
-                </div>
-            </div>
-           
-        </div>
-    </div>
-</section>
-
-<section className="sponsor-area sponsor-2 visitor-area">
-    <div className="container">
-        <div className="row">
-          
-            <div className="col-md-6">
-                <div className="sponsor-content">
-                    <h3 className="text-uppercase">business visa</h3>
-                    <h5>the most beautiful tourist attractions in the world</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                    <a href="#">Get in Touch</a>
-                </div>
-            </div>
-            <div className="col-md-6 p-0">
-                <div className="sponsor-img">
-                  <img  src="images/visitor3.jpg" alt="" className="img-fluid"/>
+                  <img className="" src="images/about2.jpg" alt=""/>
                   <div className="blu-bx"></div>
                     <div className="bl-grey-bx-left"></div>
                 </div>
@@ -140,31 +80,41 @@ const Visitor = () => {
     </div>
 </section>
 
-<section className="video-area">
+  <section className="abt-content">
+      <div className="container">
+        <div className="row">
+            <div className="col-md-12 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+            </div>
+         </div> 
+      </div>
+  </section>
+
+  <section className="video-area">
     <div className="container-fluid">
   <div className="row video-hero text-center">
     <div className="col-md-12 mx-auto">
       <img src="images/video-bg2.jpg" className="img-fluid w-100"/>
     <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-    <i className="fa fa-play-circle-o t" ></i>
+      <i className="fa fa-play-circle-o" ></i>
       </a>
     </div>
     <div className="col-md-12 mx-auto">
       <img src="images/video.jpg" className="img-fluid w-100"/>
       <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-      <i className="fa fa-play-circle-o t" ></i>
+        <i className="fa fa-play-circle-o" ></i>
         </a>
     </div>
     <div className="col-md-12 mx-auto">
       <img src="images/video.jpg" className="img-fluid w-100"/>
       <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-      <i className="fa fa-play-circle-o t" ></i>
+        <i className="fa fa-play-circle-o" ></i>
         </a>
     </div>
     <div className="col-md-12 mx-auto">
       <img src="images/video.jpg" className="img-fluid w-100"/>
       <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-      <i className="fa fa-play-circle-o t" ></i>
+        <i className="fa fa-play-circle-o" ></i>
         </a>
     </div>
   </div>
@@ -194,8 +144,10 @@ const Visitor = () => {
         </div>
         <div className="col-md-1"></div>
         </div>
-      </div>
-    </section>
+     
+    </div>
+      
+  </section>
   
   <section className="blog-area">
     <div className="container">
@@ -252,30 +204,8 @@ const Visitor = () => {
     </div>
   </div>
 </footer>
-
-
-
-
-<script src="js/jquery.min.js"></script>
- <script src="js/bootstrap.min.js"></script> 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="js/webslidemenu.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
-<script src="js/custom.js"></script>
-<script>
-  AOS.init();
-</script>
-<script type="text/javascript">
-
-</script>
     </div>
   )
 }
 
-export default Visitor
+export default About
