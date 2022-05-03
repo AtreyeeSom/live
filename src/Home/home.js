@@ -417,9 +417,9 @@ const Home = () => {
   <div class="container-fluid">
 <div class="row video-hero text-center">
   <div class="col-md-12 mx-auto">
-    <img src="images/video.jpg" class="img-fluid w-100"/>
+    <img src="images/video.jpg" class="img-fluid w-100" />
   <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-    <i class="fa fa-play-circle-o" ></i>
+    <i class="fa fa-play-circle-o " ></i>
     </a>
   </div>
   <div class="col-md-12 mx-auto">
@@ -431,13 +431,13 @@ const Home = () => {
   <div class="col-md-12 mx-auto">
     <img src="images/video.jpg" class="img-fluid w-100"/>
     <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-      <i class="fa fa-play-circle-o" ></i>
+      <i class="fa fa-play-circle-o " ></i>
       </a>
   </div>
   <div class="col-md-12 mx-auto">
     <img src="images/video.jpg" class="img-fluid w-100"/>
     <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
-      <i class="fa fa-play-circle-o" ></i>
+      <i className="fa fa-play-circle-o " ></i>
       </a>
   </div>
 </div>
