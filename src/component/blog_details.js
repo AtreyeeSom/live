@@ -1,9 +1,9 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-const International_agreement = () => {
+const Blog_details = () => {
   return (
     <div>
-  <header>
+         <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -44,61 +44,64 @@ const International_agreement = () => {
   </div>
 </header>
 
-<section className="banner__slider inr-bnr">
+<section class="banner__slider inr-bnr">
   
-    <div className="slidew">
-      <div className="slide__img">
-        <img src="images/lmia-bnr.jpg" className="img-fluid"/>
+    <div class="slidew">
+      <div class="slide__img">
+        <img src="images/blogd-bnr.jpg" alt=""/>
       </div>
      
- 
+
   </div>
 
 </section>
 
 
-  <section className="consultants pnp-cnsult">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-12 city-con">
-          <h3 className="text-uppercase">inetrnational aggrement</h3>
-          <h5>aggrement applications should show the following</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.
+  <section class="consultants pnp-cnsult blog-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 ">
+          <h3 class="text-uppercase">How  Can Reunite & <br/>
+            How to Sponsor</h3>
+          
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.<br/><br/>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet.
             </p>
           
         </div>
-        <div className="col-lg-6 col-md-12 consultants-img p-0 lmia-img">
-          <img className="img-fluid" src="images/consualt-banner.jpg"/>
-            <div className="blu-bx"></div>
-        
+        <div class="col-lg-6 col-md-12 consultants-img p-0">
+          <img src="images/blog-details.png" alt="" class="img-fluid"/>
+          
         </div>
       </div>
         
     </div>
   </section>
-    <section className="lmia-content">
-  <div className="container">
- <div className="">
-         <div className="row">
-             <div className="col-md-12">
-          <h2 className="text-uppercase">Low-Wage Workers</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <h2 className="text-uppercase">High-Wage Workers</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h2 className="text-uppercase">Expediting an LMIA</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h2 className="text-uppercase">Highest-demand occupations</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-        </div>
-        </div>
-        </div>
-     </div>
-  </section>   
+ 
+  <section class="blog-content">
+      <div class="container">
+        <h4><i class="fa fa-calendar"></i>April 5, 2022</h4>
+        <h3>Getting Approved: Common Law or Canadian Spousal Sponsorshipstt</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/><br/>
+
+         incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+         <h3>3 Tips to Help You Ace Your Canadian Citizenship Test – Our Guide</h3>
+        <ul>
+            <li><i class="fa fa-circle"></i>Be a permanent resident</li>
+            <li><i class="fa fa-circle"></i>Lived in Canada for three out of the last five years</li>
+            <li><i class="fa fa-circle"></i>Have filed your taxes</li>
+            <li><i class="fa fa-circle"></i>Pass a citizenship test</li>
+            <li><i class="fa fa-circle"></i>Prove your language skills</li>
+        </ul>
+        <h3>LATEST POST</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+      </div>
+  </section>
 
 <footer>
-  <div className="ftr-1">
-    <div className="container">
-      <h3 className="text-uppercase text-center">get in touch</h3>
+  <div class="ftr-1">
+    <div class="container">
+      <h3 class="text-uppercase text-center">get in touch</h3>
        
       <ul>
         <li><a href="#"><b>Phone:</b> (666) 555-2222</a></li>
@@ -107,8 +110,8 @@ const International_agreement = () => {
       </ul>
     </div>
   </div>
-  <div className="copy">
-    <div className="container">
+  <div class="copy">
+    <div class="container">
       <p>Copyright © 2022 domain.com</p>
     </div>
   </div>
@@ -138,4 +141,4 @@ const International_agreement = () => {
   )
 }
 
-export default International_agreement
+export default Blog_details

@@ -69,16 +69,16 @@ const Home = () => {
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
         <NavDropdown.Item href="/international" className="dropdown-item">International Agreement</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
+        <NavDropdown.Item href="/permit" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
+        <NavDropdown.Item href="/works" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="/trades" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
+        <NavDropdown.Item href="/canadian" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
+        <NavDropdown.Item href="/child" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
             <li className="nav-item"><a href="/business">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
-            <li className="nav-item"><a href="#">ASSESSMENT</a></li>
+            <li className="nav-item"><a href="/assesment">ASSESSMENT</a></li>
             <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
             <li className="nav-item"><a href="/blog">BLOG</a></li>
             <li className="nav-item"><a href="/contact">Contact</a></li>
@@ -413,96 +413,35 @@ const Home = () => {
       </div>   */}
 </section>
 
-<section className="video-area">
-  <div className="container-fluid">
-<div className="row video-slider text-center">
-<Slider {...setting}>
-  <div className="col-md-12 mx-auto">
-    <img src="images/video.jpg" className="img-fluid"/>
-    <i className="fa fa-play-circle-o" ></i>
+<section class="video-area">
+  <div class="container-fluid">
+<div class="row video-hero text-center">
+  <div class="col-md-12 mx-auto">
+    <img src="images/video.jpg" class="img-fluid w-100"/>
+  <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+    <i class="fa fa-play-circle-o" ></i>
+    </a>
   </div>
-  <div className="col-md-12 mx-auto">
-    <img src="images/video.jpg" className="img-fluid"/>
-    <i className="fa fa-play-circle-o" ></i>
+  <div class="col-md-12 mx-auto">
+    <img src="images/video.jpg" class="img-fluid w-100"/>
+    <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+      <i class="fa fa-play-circle-o" ></i>
+      </a>
   </div>
-  <div className="col-md-12 mx-auto">
-    <img src="images/video.jpg" className="img-fluid"/>
-    <i className="fa fa-play-circle-o" ></i>
+  <div class="col-md-12 mx-auto">
+    <img src="images/video.jpg" class="img-fluid w-100"/>
+    <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+      <i class="fa fa-play-circle-o" ></i>
+      </a>
   </div>
-  <div className="col-md-12 mx-auto">
-    <img src="images/video.jpg" className="img-fluid"/>
-    <i className="fa fa-play-circle-o" ></i>
+  <div class="col-md-12 mx-auto">
+    <img src="images/video.jpg" class="img-fluid w-100"/>
+    <a href="https://youtu.be/6qBTWBd7TGM" data-fancybox="gallery" data-caption="">
+      <i class="fa fa-play-circle-o" ></i>
+      </a>
   </div>
-  </Slider>
 </div>
   </div>
-{/*    
-        <Slider {...setting}>
-       
-          <div>
-          <img src="images/video.jpg" className="img-fluid w-100"/>
-    
-          </div>
-          <div>
-          <img src="images/video.jpg" className="img-fluid w-100"/>
-    
-          </div>
-          <div>
-          <img src="images/video.jpg" className="img-fluid w-100"/>
-  
-          </div>
-          <div>
-          <img src="images/video.jpg" className="img-fluid w-100"/>
- 
-          </div>
-         
-       
-        </Slider> */}
-        {/* <Carousel>
-  <Carousel.Item>
-    <img
-      className="img-fluid w-100"
-      src="images/video.jpg"
-    //   alt="First slide"
-    />
-    <Carousel.Caption>
-    <i className="fa fa-play-circle-o" ></i>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="img-fluid w-100"
-      src="images/video.jpg"
-    //   alt="Second slide"
-    />
-
-    <Carousel.Caption>
-    <i className="fa fa-play-circle-o" ></i>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="img-fluid w-100"
-      src="images/video.jpg"
-    //   alt="Third slide"
-    />
-
-    <Carousel.Caption>
-    <i className="fa fa-play-circle-o" ></i>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="img-fluid w-100"
-      src="images/video.jpg"
-    //   alt="Second slide"
-    />
-
-    <Carousel.Caption>
-    <i className="fa fa-play-circle-o" ></i>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel> */}
 </section>
 
 
@@ -534,39 +473,49 @@ const Home = () => {
   
 </section>
 
-<section className="blog-area">
-  <div className="container">
-    <h3 className="text-center text-uppercase">our <span>blog</span></h3>
-    <p className="text-center">Lorem ipsum dolor sit amet, consectetuer</p>
-    <div className="row mt-5 position-relative">
-      <div className="col-md-3">
-        <div className="blog-inr text-center">
-          <img src="images/blog1.png" alt="blog" className="img-fluid"/>
-          <p className="text-uppercase">adipiscing </p>
+<section class="blog-area">
+  <div class="container">
+    <h3 class="text-center text-uppercase">our <span>blog</span></h3>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetuer</p>
+   
+
+    <div class="row position-relative">
+      <div class="col-lg-4 col-md-12">
+        <div class="blog-inr">
+          <img src="images/1.jpg" class="img-fluid"/>
+          <div class="blog-txt">
+            <h6>2nd may , 2022</h6>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+            <a href="/details">Read More</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-4 col-md-12">
+        <div class="blog-inr">
+          <img src="images/2.jpg" class="img-fluid"/>
+          <div class="blog-txt">
+            <h6>2nd may , 2022</h6>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+            <a href="/details">Read More</a>
+          </div>
+        </div>
+      </div> 
+      <div class="col-lg-4 col-md-12">
+        <div class="blog-inr">
+          <img src="images/3.jpg" class="img-fluid"/>
+          <div class="blog-txt">
+            <h6>2nd may , 2022</h6>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+            <a href="/details">Read More</a>
+          </div>
         </div>
       </div>
-      <div className="col-md-3">
-        <div className="blog-inr text-center">
-          <img src="images/blog2.png" alt="blog" className="img-fluid"/>
-          <p className="text-uppercase">adipiscing </p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="blog-inr text-center">
-          <img src="images/blog3.png" alt="blog" className="img-fluid"/>
-          <p className="text-uppercase">adipiscing </p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="blog-inr text-center">
-          <img src="images/blog4.png" alt="blog" className="img-fluid"/>
-          <p className="text-uppercase">adipiscing </p>
-        </div>
-      </div>
+      
     </div>
 
-    <div className="text-center mt-5">
-      <a href="#" className="btn see-all text-uppercase">See all</a>
+
+    <div class="text-center mt-5">
+      <a href="/details" class="btn see-all text-uppercase">See all</a>
     </div>
   </div>
 </section>

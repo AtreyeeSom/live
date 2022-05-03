@@ -1,9 +1,9 @@
 import React from 'react'
 import {NavDropdown} from "react-bootstrap"
-const International_agreement = () => {
+const Work_permit = () => {
   return (
     <div>
-  <header>
+         <header>
     <div className="container">
       <div className="page-wrapper">
        <div className="nav-wrapper">
@@ -44,51 +44,50 @@ const International_agreement = () => {
   </div>
 </header>
 
-<section className="banner__slider inr-bnr">
+<section class="banner__slider inr-bnr">
   
-    <div className="slidew">
-      <div className="slide__img">
-        <img src="images/lmia-bnr.jpg" className="img-fluid"/>
+    <div class="slidew">
+      <div class="slide__img">
+        <img src="images/lmia-bnr.jpg" class="img-fluid"/>
       </div>
      
- 
   </div>
 
 </section>
 
 
-  <section className="consultants pnp-cnsult">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-6 col-md-12 city-con">
-          <h3 className="text-uppercase">inetrnational aggrement</h3>
+
+  <section class="consultants pnp-cnsult">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 city-con">
+          <h3 class="text-uppercase">work permit</h3>
           <h5>aggrement applications should show the following</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.
             </p>
           
         </div>
-        <div className="col-lg-6 col-md-12 consultants-img p-0 lmia-img">
-          <img className="img-fluid" src="images/consualt-banner.jpg"/>
-            <div className="blu-bx"></div>
+        <div class="col-lg-6 col-md-12 consultants-img p-0 lmia-img">
+          <img class="img-fluid" src="images/consualt-banner.jpg"/>
+            <div class="blu-bx"></div>
         
         </div>
       </div>
         
     </div>
   </section>
-    <section className="lmia-content">
-  <div className="container">
- <div className="">
-         <div className="row">
-             <div className="col-md-12">
-          <h2 className="text-uppercase">Low-Wage Workers</h2>
+    <section class="lmia-content">
+  <div class="container">
+ <div class="">
+         <div class="row">
+             <div class="col-md-12">
+          <h2 class="text-uppercase">FREE TRADE AGREEMENT WORK PERMITS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-          <h2 className="text-uppercase">High-Wage Workers</h2>
+          <h2 class="text-uppercase">INTRA-COMPANY TRANSFERS</h2>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h2 className="text-uppercase">Expediting an LMIA</h2>
+                 <h2 class="text-uppercase">INTERNATIONAL EXPERIENCE CANADA</h2>
                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
-                 <h2 className="text-uppercase">Highest-demand occupations</h2>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore Lorem ipsum.</p>
+                
         </div>
         </div>
         </div>
@@ -96,9 +95,9 @@ const International_agreement = () => {
   </section>   
 
 <footer>
-  <div className="ftr-1">
-    <div className="container">
-      <h3 className="text-uppercase text-center">get in touch</h3>
+  <div class="ftr-1">
+    <div class="container">
+      <h3 class="text-uppercase text-center">get in touch</h3>
        
       <ul>
         <li><a href="#"><b>Phone:</b> (666) 555-2222</a></li>
@@ -107,8 +106,8 @@ const International_agreement = () => {
       </ul>
     </div>
   </div>
-  <div className="copy">
-    <div className="container">
+  <div class="copy">
+    <div class="container">
       <p>Copyright © 2022 domain.com</p>
     </div>
   </div>
@@ -138,4 +137,4 @@ const International_agreement = () => {
   )
 }
 
-export default International_agreement
+export default Work_permit

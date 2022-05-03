@@ -36,16 +36,16 @@ const Citizenship = () => {
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
         <NavDropdown.Item href="/international" className="dropdown-item">International Agreement</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
+        <NavDropdown.Item href="/permit" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
+        <NavDropdown.Item href="/works" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="/trades" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
+        <NavDropdown.Item href="/canadian" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
+        <NavDropdown.Item href="/child" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
             <li className="nav-item"><a href="/business">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
-            <li className="nav-item"><a href="#">ASSESSMENT</a></li>
+            <li className="nav-item"><a href="/assesment">ASSESSMENT</a></li>
             <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
             <li className="nav-item"><a href="/blog">BLOG</a></li>
             <li className="nav-item"><a href="/contact">Contact</a></li>

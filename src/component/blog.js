@@ -15,7 +15,7 @@ const Blog = () => {
             <span className="bar"></span>
           </div>
           <ul className="nav no-search">
-            <li className="nav-item active"><a href="#">Home</a></li>
+            <li className="nav-item active"><a href="/">Home</a></li>
             <li className="nav-item"><a href="/about">About us</a></li>
             <li className="nav-item"><a href="/visitor">VISITOR</a></li>
             <li className="nav-item"><a href="/study">STUDY</a></li>
@@ -24,16 +24,16 @@ const Blog = () => {
         <NavDropdown.Item href="/work" className="dropdown-item">LMIA based work permit</NavDropdown.Item>
         <NavDropdown.Item href="/intra" className="dropdown-item">Intra company transfer</NavDropdown.Item>
         <NavDropdown.Item href="/international" className="dropdown-item">International Agreement</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
+        <NavDropdown.Item href="/permit" className="dropdown-item">Post graduation work permit</NavDropdown.Item>
+        <NavDropdown.Item href="/works" className="dropdown-item">Federal Skilled worker className</NavDropdown.Item>
         <NavDropdown.Item href="/trades" className="dropdown-item">Federal Skilled Trades Cass</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
+        <NavDropdown.Item href="/canadian" className="dropdown-item">Canadian Experience className</NavDropdown.Item>
+        <NavDropdown.Item href="/child" className="dropdown-item">Home childcare giver/ Personal Support Worker</NavDropdown.Item>
       </NavDropdown>
             <li className="nav-item"><a href="/sponser">sponsor</a></li>
             <li className="nav-item"><a href="/business">BUSINESS </a></li>
             <li className="nav-item"><a href="/pnb">PNP</a></li>
-            <li className="nav-item"><a href="#">ASSESSMENT</a></li>
+            <li className="nav-item"><a href="/assesment">ASSESSMENT</a></li>
             <li className="nav-item"><a href="/citizenship">CITIZENSHIP</a></li>
             <li className="nav-item"><a href="/blog">BLOG</a></li>
             <li className="nav-item"><a href="/contact">Contact</a></li>
@@ -62,61 +62,77 @@ const Blog = () => {
     <div className="container">
       <h3 className="text-center text-uppercase">our <span>blog</span></h3>
       <p className="text-center">Lorem ipsum dolor sit amet, consectetuer</p>
-      <div className="row mt-5 position-relative">
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog1.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
+     
+
+      <div className="row position-relative">
+        <div className="col-lg-4 col-md-12">
+          <div className="blog-inr">
+            <img src="images/1.jpg" className="img-fluid"/>
+            <div className="blog-txt">
+              <h6>2nd may , 2022</h6>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+              <a href="/details">Read More</a>
+            </div>
+          </div>
+        </div> 
+        <div className="col-lg-4 col-md-12">
+          <div className="blog-inr">
+            <img src="images/2.jpg" className="img-fluid"/>
+            <div className="blog-txt">
+              <h6>2nd may , 2022</h6>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+              <a href="/details">Read More</a>
+            </div>
+          </div>
+        </div> 
+        <div className="col-lg-4 col-md-12">
+          <div className="blog-inr">
+            <img src="images/3.jpg" className="img-fluid"/>
+            <div className="blog-txt">
+              <h6>2nd may , 2022</h6>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+              <a href="/details">Read More</a>
+            </div>
           </div>
         </div>
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog2.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
+        
+        <div className="col-lg-4 col-md-12">
+          <div className="blog-inr">
+            <img src="images/4.jpg" className="img-fluid"/>
+            <div className="blog-txt">
+              <h6>2nd may , 2022</h6>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+              <a href="/details">Read More</a>
+            </div>
           </div>
-        </div>
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog3.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
+        </div> 
+        <div className="col-lg-4 col-md-12">
+          <div className="blog-inr">
+            <img src="images/5.jpg" className="img-fluid"/>
+            <div className="blog-txt">
+              <h6>2nd may , 2022</h6>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+              <a href="/details">Read More</a>
+            </div>
           </div>
-        </div>
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog4.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
+        </div> 
+        <div className="col-lg-4 col-md-12">
+          <div className="blog-inr">
+            <img src="images/6.jpg" className="img-fluid"/>
+            <div className="blog-txt">
+              <h6>2nd may , 2022</h6>
+              <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
+              <a href="/details">Read More</a>
+            </div>
           </div>
-        </div>
+        </div> 
       </div>
-      <div className="row mt-5 position-relative">
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog5.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog6.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog7.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="blog-inr text-center">
-            <img src="images/blog8.png" alt="blog" className="img-fluid"/>
-            <p className="text-uppercase">adipiscing </p>
-          </div>
-        </div>
-      </div>
+
+
+     
   
-      <div className="text-center mt-5">
-        <a href="blog-details.html" className="btn see-all text-uppercase">See all</a>
+     <div className="text-center mt-5">
+        <a href="/details" className="btn see-all text-uppercase">See all</a>
       </div>
     </div>
   </section>
@@ -160,7 +176,8 @@ const Blog = () => {
 </script>
 <script type="text/javascript">
 
-</script></div>
+</script>
+</div>
   )
 }
 
